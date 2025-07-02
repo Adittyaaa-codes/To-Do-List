@@ -14,6 +14,11 @@ body {
   color: #f5f5f5;
 }
 
+img.icon, svg.icon {
+  background-color: transparent !important;
+}
+
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -28,6 +33,29 @@ body {
   width: 400px;
   max-width: 90vw;
   gap: 20px;
+}
+
+.in-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.il-right{
+  gap:10px;
+}
+
+.il-left{
+  display:flex;
+  align-items: center;
+}
+
+.il-button{
+  background-color: transparent;
+  border:none;
+  cursor:pointer;
+  transform: 1.1s;
 }
 
 h1 {
