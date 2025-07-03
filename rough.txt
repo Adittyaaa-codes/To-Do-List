@@ -1,0 +1,39 @@
+
+  function TaskProgressCard() {
+    return (
+      <Card className="w-[310px]">
+        <CardHeader>
+          <CardTitle>Task Progress</CardTitle>
+          <CardDescription>Your project status</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4">
+            <div>
+              <div className="flex justify-between text-sm mb-2">
+                <span>Design Phase</span>
+                <span>75%</span>
+              </div>
+              <Progress value={75} className="h-2" />
+            </div>
+            <div>
+              <div className="flex justify-between text-sm mb-2">
+                <span>Development</span>
+                <span>50%</span>
+              </div>
+              <Progress value={50} className="h-2" />
+            </div>
+            <div>
+              <div className="flex justify-between text-sm mb-2">
+                <span>Testing</span>
+                <span>25%</span>
+              </div>
+              <Progress value={25} className="h-2" />
+            </div>
+          </div>
+        </CardContent>
+        <CardFooter>
+          <Button className="w-full">View Detailed Report</Button>
+        </CardFooter>
+      </Card>
+    )
+  }

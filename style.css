@@ -82,6 +82,18 @@ h1 {
   transition: 0.3s;
 }
 
+#edit-input{
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid #444;
+  background-color: #1c1c28;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
 input[type="checkbox"] {
   width: 18px;
   height: 18px;
