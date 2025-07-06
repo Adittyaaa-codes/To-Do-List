@@ -18,6 +18,14 @@ img.icon, svg.icon {
   background-color: transparent !important;
 }
 
+img {
+  max-width: 18px;
+  max-height: 18px;
+  padding: none;
+  margin: none;
+  font-weight: 900;
+}
+
 
 .flex {
   display: flex;
@@ -43,7 +51,11 @@ img.icon, svg.icon {
 }
 
 .il-right{
-  gap:10px;
+  gap:40px;
+}
+
+.il-right button{
+  margin-right: 5px;
 }
 
 .il-left{

@@ -45,11 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <div class="il-right">
                     <button class="il-button edit">
-                        <i class="fa-solid fa-pen" style="color:green; font-size:15px; padding:5px; border-radius:50%;"></i>
+                        <img src="pencil-edit-button.svg" alt="pen">
                     </button>
                     <button class="il-button trash">
-                        <i class="fa-solid fa-trash-can" style="color:red; font-size:15px; padding:5px; border-radius:50%;"></i>
-                    </button>
+                        <img src="trash.png" alt="pen">                   
+                     </button>
                 </div>
             </div>
         `;
